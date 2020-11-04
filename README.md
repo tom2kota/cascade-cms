@@ -1,4 +1,7 @@
-# Cascade CMS
+# Cascade CMS 8.16
+
+Cascade CMS 8.16 includes improvements to system-wide announcements and the addition of Sticky Announcements, 
+new user API keys and API methods, additional tools and methods ...
 
 - [Cascade CMS Overview](https://www.tarleton.edu/cascade-tutorial/basics/index.html)
 - [Request A Demo](https://www.hannonhill.com/request-a-demo/index.html)
@@ -66,3 +69,44 @@
 49. [Add the More Menu](https://youtu.be/Raby62duSlE)
 50. [Reorder Content Types](https://youtu.be/oDlQsXLkQsI)
 51. [Compare Version](https://youtu.be/ipCmJOZQd_A)
+
+-------
+
+# [Cascade CMS Knowledge Base!](https://www.hannonhill.com/cascadecms/latest/)
+
+1. [Templates](https://www.hannonhill.com/cascadecms/latest/design-in-cascade/templates/index.html)
+2. [System Tags](https://www.hannonhill.com/cascadecms/latest/content-authoring/pages/system-tags.html)
+3. [Cascade Basics & Videos](https://www.hannonhill.com/cascadecms/latest/cascade-basics/index.html)
+4. [Content Authoring](https://www.hannonhill.com/cascadecms/latest/content-authoring/index.html)
+5. [Design in Cascade](https://www.hannonhill.com/cascadecms/latest/design-in-cascade/index.html)
+6. [Developing in Cascade](https://www.hannonhill.com/cascadecms/latest/developing-in-cascade/index.html)
+7. [Content Management](https://www.hannonhill.com/cascadecms/latest/content-management/index.html)
+8. [Cascade Administration](https://www.hannonhill.com/cascadecms/latest/cascade-administration/index.html)
+9. [Idea Portal](https://portal.productboard.com/gp4tteft4txh4nde2tnnnybl/tabs/3-under-consideration)
+10. [Release Notes](https://www.hannonhill.com/cascadecms/latest/releases/index.html)
+11. [FAQs](https://faqs.cascadecms.com/en/)
+ 
+
+------------
+
+
+## Metadata Tags 
+```
+    <system-page-name/> - the system name of the page asset
+    <system-page-title/> - the contents of the page's Title metadata field
+    <system-page-summary/> - the contents of the page's Summary metadata field
+    <system-page-author/> - the contents of the page's Author metadata field
+    <system-page-teaser/> - the contents of the page's Teaser metadata field
+    <system-page-keywords/> - the contents of the page's Keywords metadata field
+    <system-page-description/> - the contents of the page's Description metadata field
+    <system-page-display-name/> - the contents of the page's Display Name metadata field
+    <system-page-start-date/> - the page's Start Date, displayed in US date format MMM DD, YYYY hh:mm a (e.g. Jul 3, 2017 1:00 AM)
+    <system-page-end-date/> - the page's End Date, displayed in US date format MMM DD, YYYY hh:mm a
+    <system-page-meta-date/> - the current time when the page is rendered, displayed in US date format MMM DD, YYYY hh:mm a
+```
+
+There are two additional tags which are used to produce HTML meta elements in published pages.
+```
+    <system-page-meta-keywords/> - Use this element to produce the standard HTML meta keyword element (e.g. <meta name="Keywords" content="cms, software" />). HTML meta keywords are useful for indexing content and some search engine technologies will also use page keywords for archiving content.
+    <system-page-meta-description/> - Use this element to produce the standard HTML meta description element (e.g. <meta name="Description" content="Cascade CMS content." />). Certain search engines use this tag as additional information about a page.
+```
